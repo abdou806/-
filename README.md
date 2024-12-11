@@ -137,10 +137,6 @@
             newCategoryInput.value = "";
             alert("تمت إضافة النوع الجديد!");
         }
-    </window.addEventListener('beforeunload', function (e) {
-    // منع التحديث
-    e.preventDefault();
-    e.returnValue = '';
-});>
+    </script>
 </body>
 </html>
